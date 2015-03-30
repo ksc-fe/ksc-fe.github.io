@@ -1,0 +1,68 @@
+.animation-wrap .i-animation {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  animation: firstAnimation 5s linear 0s infinite normal;
+}
+.animation-wrap .i-transition {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+}
+.animation-wrap .i-transition-demo01 {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.animation-wrap .i-transition-demo01:hover {
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  opacity: 0.5;
+}
+@-moz-keyframes firstAnimation {
+  10% {
+    background-color: #f00;
+  }
+  40% {
+    background-color: #ff0;
+  }
+  100% {
+    background-color: #eee;
+  }
+}
+@-webkit-keyframes firstAnimation {
+  10% {
+    background-color: #f00;
+  }
+  40% {
+    background-color: #ff0;
+  }
+  100% {
+    background-color: #eee;
+  }
+}
+@-o-keyframes firstAnimation {
+  10% {
+    background-color: #f00;
+  }
+  40% {
+    background-color: #ff0;
+  }
+  100% {
+    background-color: #eee;
+  }
+}
+@keyframes firstAnimation {
+  10% {
+    background-color: #f00;
+  }
+  40% {
+    background-color: #ff0;
+  }
+  100% {
+    background-color: #eee;
+  }
+}
